@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+.radio-container {
+  margin: 100px auto;
+  height: 65vh;
+}
+
+.radio-body {
+  width: 23%;
+  height: 100%;
+  border: 1px solid rgb(185, 183, 183);
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.radio-header {
+  height: 15%;
+  background-color: rgb(255, 201, 140);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.radio-header h2, i {
+  font-size: 30px;
+}
+
+.radio-channels {
+  height: 70%;
+  background-color: rgb(72, 72, 77);
+  border-bottom: 2px solid rgb(128, 125, 125);
+}
+
+.radio-channel {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.radio-footer {
+  height: 15%;
+  background-color: rgb(40, 39, 51);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 61%;
+}
+
+.radio-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-hide {
+  display: none;
+}
+
+.radios {
+  border-bottom: 1px solid rgb(100, 100, 100);;
+}
+
+.name, .frequency {
+  cursor: pointer;
+  color:rgb(206, 200, 194)
+}
+
+.name {
+  font-weight: 200;
+  color: aqua;
+}
+
+.radio:last-child {
+  border: none;
+}

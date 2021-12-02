@@ -70,7 +70,7 @@ img {
 }
 
 .radios {
-  border-bottom: 1px solid rgb(100, 100, 100);;
+  border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 .name, .frequency {
@@ -83,6 +83,6 @@ img {
   color: aqua;
 }
 
-.radio:last-child {
+.radios:last-child {
   border: none;
 }

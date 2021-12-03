@@ -1,10 +1,9 @@
-const radioChannel = document.querySelector(".radio-channel")
-const radioFooterContent = document.querySelector(".radio-footer")
+const radioChannel = document.querySelector(".radio-channel");
+const radioFooterContent = document.querySelector(".radio-footer");
 
 fetch("https://teclead.de/recruiting/radios")
   .then(response => response.json())
   .then((data) => {
-    console.log(data);
     data.radios.forEach((radio) => {
       const radioContent = `
       <div class="radios">

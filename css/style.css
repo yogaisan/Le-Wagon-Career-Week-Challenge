@@ -6,8 +6,8 @@
 }
 
 .radio-body {
-  width: 23%;
-  height: 100%;
+  width: 300px;
+  height: 500px;
   border: 1px solid rgb(185, 183, 183);
   border-radius: 25px;
   margin: 0 auto;
